@@ -40,7 +40,7 @@ namespace StudentManagementAPI.Controllers
         }
 
 
-        //view all department table
+        //view all department table for the seeded data
         [Route("Departments")]
         [HttpGet]
         public async Task<ActionResult<List<DepartmentViewModel>>> GetAllDepartments()
